@@ -1,0 +1,53 @@
+#Alright so the plan here is to First make the GUI work
+#And then I want to use pythons built in sql aspects to save previous plane searches
+#Later on retrieve some maybe
+#In this way I could have a list of interesting coordinates around the world
+
+#One of the issues though is that I have to get the openSky API onto this computer
+
+#plus how does that even work with creating an executable file?
+
+#Heres something else thats fucking with me, I think my command prompt is in Python2, but anaconda is in Python3
+
+The TWO tricky things I remember being tricky about this code is:
+  You have to .pack, or use the geometry manager in someway after instantiating the button, or entry or whatever
+    for some reason its not as easily manipulable if you just .pack on the line instantiating the entry or etc.
+  The other tricky thing is that the whole thing is technically looping, which means loops don't really work in GUI's
+    at least as far as I can tell
+
+#Step 1.5: download the repo, and afterwards I can save it from there - DONE
+
+#Step 1.7: install the repo from the folder, which is apparently considered the better way - DONE
+  #I had to go to the python folder itself inside the API and then use the pip install command - DONE
+
+#Step 2: Download geopy - DONE(done previously)
+
+
+#Step 3: Get the GUI working with the plane code - DONE!
+
+#Step 4: Error Checking - DONE! (I think?  hard to say if this kind of thing is finished)
+
+#Step 4.5: Get access to dropbox - DONE!
+  4.55: Use word in dropbox - DONE!
+  4.56: Create a new file and folder for a 2019 project based resume - DONE!
+  4.6: I would like to review a couple of articles on project based resumes
+  4.7: and then I would like to start working on a more project based resume as well
+
+#Step 5: Make it look good? - preferably
+  #Step 5.0 - sketch out the thing I'm looking for, maybe look at some nice GUIs or some UX stuff
+  Step 5.1: Create a new program that doesn't have any plane finding abilities, but does look good
+
+#Step 6: Make it work with SQL would be nice.  That way I can show I can use SQL
+  #Step 6.1 - try some SQL practice out again
+  #Step 6.2 - Then try saving all the plane data with SQL, but WITHOUT the GUI
+  #Step 6.3 - Then try using the GUI as well
+
+#Step 7: hopefully make it an executable - DID IT!!!!!
+  #Install CX-Freeze - DONE!
+    #Needed to install directly from github by cloning the repo, luckily they had a pip install command
+      So didnt need to do too much
+
+
+#Last thing to do is add SQL to the thing I think
+
+#I already have git installed because of the anaconda distro
